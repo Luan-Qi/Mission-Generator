@@ -1,0 +1,55 @@
+# ── Python ──
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+*.egg
+dist/
+build/
+*.spec
+*.manifest
+
+# ── PyInstaller ──
+MissionGenerator
+MissionGenerator.exe
+*.app
+
+# ── Virtual environments ──
+venv/
+.venv/
+env/
+.env/
+*.env.local
+
+# ── IDE / Editors ──
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# ── OS files ──
+.directory
+*.lnk
+
+# ── Temporary files ──
+*.log
+*.tmp
+*.temp
+tmp/
+
+# ── Test / debug ──
+test/
+tests/
+*.pcd
+!test_data/
+
+# ── Distribution outputs ──
+*.zip
+*.tar.gz
+*.AppImage
+
+# ── Other files ──
+.claude/
